@@ -14,18 +14,135 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #767e85;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 30px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #92daee;
+}
+
+.btn-role {
+  background-color: #47d8f9;
+  border: none;
+  color: #fff;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.btn-role-reg {
+  background-color: #a0a5ac;
+  border: none;
+  color: #fff;
+  padding: 5px 20px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-sort {
+  background: none;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.btn-signup {
+  background: none;
+  border: none;
+  color: rgb(43, 226, 43);
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: rgb(43, 226, 43) 1px solid;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.form-container {
+  border: 3px solid #fff;
+  margin: 10px;
+  padding: 30px;
+}
+
+.form-regist {
+  display: flex;
+  gap: 50px;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.g-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn-regist {
+  background-color: #a0a5ac;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  margin: 20px 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.table-container {
+  border: 3px solid #fff;
+  max-width: 1800px;
+  overflow-x: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  min-width: 100%;
+}
+
+thead th {
+  position: sticky;
+  top: -1px;
+  z-index: 9999;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background-color: rgb(63, 117, 165);
+  color: white;
+}
+
+tr:hover {
+  background-color: #61dafb;
 }
 
 @keyframes App-logo-spin {
